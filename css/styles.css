@@ -1,6 +1,6 @@
 /* Sidebar visibility fixes */
 .chatterbox-sidebar {
-    min-width: 320px !important;
+    min-width: 280px !important;
     max-width: 400px;
 }
 
