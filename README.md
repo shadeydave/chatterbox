@@ -15,6 +15,7 @@ Chatterbox is a WordPress plugin that integrates OpenAI's GPT and DALL-E capabil
 
 ## Installation
 
+![Chatterbox Plugin Settings](./screenshots/screenshot-settings.png) <!-- You'll want to add a screenshot -->
 1. Download the plugin files and upload to your `/wp-content/plugins/chatterbox` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Go to Settings > Chatterbox and enter your OpenAI API key
