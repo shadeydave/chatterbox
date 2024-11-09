@@ -1,0 +1,76 @@
+/* Sidebar visibility fixes */
+.chatterbox-sidebar {
+    min-width: 320px !important;
+    max-width: 400px;
+}
+
+.chatterbox-panel {
+    padding: 16px;
+}
+
+/* Message styling */
+.chatterbox-interface {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: #fff;
+}
+
+.chatterbox-messages {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #f9f9f9;
+}
+
+.chatterbox-messages::-webkit-scrollbar {
+    width: 6px;
+}
+
+.chatterbox-messages::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.chatterbox-messages::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 3px;
+}
+
+.chatterbox-message {
+    transition: all 0.3s ease;
+    margin: 8px;
+}
+
+.chatterbox-message.user {
+    margin-left: 20px;
+    background: #e3f2fd;
+    border-radius: 8px 8px 0 8px;
+}
+
+.chatterbox-message.assistant {
+    margin-right: 20px;
+    background: #fff;
+    border-radius: 8px 8px 8px 0;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.chatterbox-buttons {
+    margin-top: 16px;
+}
+
+.chatterbox-buttons button {
+    transition: transform 0.2s ease;
+    min-height: 36px;
+}
+
+.chatterbox-buttons button:hover:not(:disabled) {
+    transform: translateY(-1px);
+}
+
+.chatterbox-error {
+    background-color: #fee;
+    border-left: 4px solid #dc3232;
+    margin-bottom: 16px;
+    border-radius: 4px;
+}
