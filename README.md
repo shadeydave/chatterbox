@@ -2,7 +2,7 @@
 
 Chatterbox is a WordPress plugin that integrates OpenAI's GPT and DALL-E capabilities directly into your WordPress editor. It provides a convenient sidebar interface for generating both text and images while writing your posts.
 
-![Chatterbox Sidebar](screenshot-url.png) <!-- You'll want to add a screenshot -->
+![Chatterbox Sidebar](./screenshot-plugin-list.png) <!-- You'll want to add a screenshot -->
 
 ## Features
 
