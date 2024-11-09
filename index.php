@@ -2,9 +2,9 @@
 /**
  * Plugin Name: Chatterbox
  * Description: AI-powered content generation for WordPress blocks
- * Version: 1.0
- * Author: Your Name
- * License: GPL v2 or later
+ * Version: 0.1 Beta
+ * Author: Dave Noel
+ * License: MIT Whatevs...
  */
 
 if (!defined('ABSPATH')) {
