@@ -193,7 +193,7 @@ class Chatterbox {
                     ['role' => 'user', 'content' => $prompt]
                 ],
                 'temperature' => 0.7,
-                'max_tokens' => 30000
+                'max_tokens' => 10000
             )),
             'timeout' => 30
         );
