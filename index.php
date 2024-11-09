@@ -188,7 +188,7 @@ class Chatterbox {
                 'Content-Type' => 'application/json',
             ),
             'body' => json_encode(array(
-                'model' => 'gpt-4',
+                'model' => 'gpt-4o-mini',
                 'messages' => [
                     ['role' => 'user', 'content' => $prompt]
                 ],
