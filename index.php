@@ -193,7 +193,7 @@ class Chatterbox {
                     'Content-Type' => 'application/json',
                 ),
                 'body' => json_encode(array(
-                    'model' => get_option('chatterbox_model', 'gpt-4-0125-preview'),
+                    'model' => get_option('chatterbox_model', 'gpt-4o-mini'),
                     'messages' => array(
                         array('role' => 'user', 'content' => $prompt)
                     ),
