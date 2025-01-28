@@ -316,7 +316,7 @@ class Chatterbox {
             return;
         }
         
-        include($this->plugin_path . 'templates/admin-settings.php');
+        include($this->plugin_path . './admin-settings.php');
     }
 }
 
